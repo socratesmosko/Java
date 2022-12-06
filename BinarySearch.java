@@ -9,15 +9,15 @@ public class TestBinarySearch
       
         int t =  1;
       
-        int thesi = binarySearch(myArray, t);
+        int p = binarySearch(myArray, t);
       
-        if (thesi == -1)
+        if (p == -1)
         {
-            System.out.println("το στοιχείο " + t + " δε βρέθηκε");
+            System.out.println("element" + t + " not found");
         }
         else
         {
-            System.out.println("το στοιχείο " + t + " βρέθηκε σστη θέση " + thesi);
+            System.out.println("element" + t + "found in position" + p);
         }
     }
     
